@@ -1,5 +1,10 @@
 package exceptionHandling;
 
+/*
+ * This logic is not working if I enter any number except 56. It runs into an infinite loop if some 
+ * other number is entered. For Strings it is working fine. Make ths little change and you are good to go.
+ */
+
 import java.util.Scanner;
 
 import java.util.InputMismatchException;
